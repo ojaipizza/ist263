@@ -26,7 +26,25 @@
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23332.638231031626!2d-76.12158740000001!3d43.02923145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f483467cb201%3A0xdf24ca2804af9250!2s120%20Winding%20Ridge%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1694726363993!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
-
+            <br>
+        <form action="https://formspree.io/f/xjvqaarz" method="post">
+            <label for="fullname">What's your name:</label><br>
+            <input type="text" id="fullname" name="Full Name"><br>
+            <br>
+            <label>What is your question?</label><br>
+            <textarea id="instructions" name="instructions" row = "3" cols ="50"></textarea> <br>
+            <br>
+            <label>Your Grades</label> <br>
+            <select id="grades" name="grades">
+                <option>Select an Option</option>
+                <option value="Freshman">Freshman</option>
+                <option value="Sophomore">Sophomore</option>
+                <option value="Junior">Junior</option>
+                <option value="Senior">Senior</option>
+            </select><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </body> 
 
 </html>
