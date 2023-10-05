@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Embedded CSS</title>
+    <style>
+        h1{color:blue;}
+        /* body selects everything (this is comments for CSS)*/
+        body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color:deepskyblue;
+    }
+        /* in em 2 is twice default size */
+        p, h1, a { /* grouped selector */
+            font-size: 2em;
+            font-weight:bolder;
+            background-color:darkorange;
+        }
+        p a {text-decoration:none;}
+        #secondpara {color:darkgreen;}
+        .yellow {color:yellow;}
+    </style>
+</head>
+<body>
+    <h1 class="yellow">CSS</h1>
+    <a class="yellow" href="http://www.amazon.com">Amazon</a>
+    <p><a href="http://www.ebey.com">Ebay</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestiae nemo laborum enim in eligendi labore consectetur iusto! Libero, ullam sint. Odit sint ratione libero nemo voluptas reprehenderit quasi nisi?</p>
+    <!-- each value for if must be unique -->
+    <p id = "secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet, a, vero repellendus esse hic odit minus suscipit possimus et necessitatibus. Omnis consectetur molestias incidunt, pariatur architecto laboriosam minus qui!</p>
+    
+</body>
+</html>
