@@ -27,8 +27,13 @@
             .row1 div{ /* this selects all the columns */
                 flex: 1;
             }
+            .banner {display: none;} /* idea of media quries is different styles for different screen widths */
             @media only screen and (max-width: 800px) {
                 body {background-color:orange;}
+            }
+            @media only screen and (min-width: 801px) {
+                .bannersmall {display: none;}
+                .banner {display: block;}
             }
         </style>
     </head>
