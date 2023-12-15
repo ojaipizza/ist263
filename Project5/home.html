@@ -53,31 +53,54 @@
             border: 2px solid #333333;
             padding: 45px;
         }
+        @media only screen and (max-width: 800px) {
+            #close, #img1 {display: none;}
+        }
+        @media only screen and (min-width: 800px) {
+            #dropdown {display: none;}
+        }
+        @media only screen and (max-width: 800px) {
+            .p1 {justify-content: center;}
+        }
     </style>
 </head>
 
 <body>
+    <div id="dropdown" class="category">
+        <a href="home.html">Home</a>
+        <a href="food&drink.html">Food & Drink</a>
+        <a href="location.html">Location</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="home.html">Home</a>
+            <a href="food&drink.html">Food & Drink</a>
+            <a href="location.html">Location</a>
+          </div>
+        </div>
+    </div>
+
     <nav class="header">
         <a href="home.html">Home</a> |
         <a href="food&drink.html">Food & Drink</a> |
         <a href="location.html">Location</a> 
     </nav> 
     <br>
-    <img class="img1" width="560" height="315" src="../Project/Media/page1.jpg" alt="Taipei">
+    <img id="img1" class="img1" width="560" height="315" src="../Project/Media/page1.jpg" alt="Taipei">
 
-    <p class="first"><Strong>First time visiting Taiwan and doesn’t know where to go?</Strong><br>
+    <p id="p1" class="first"><Strong>First time visiting Taiwan and doesn’t know where to go?</Strong><br>
         Don’t worry, let’s figure out what you want to eat or drink first, and we will think about where we want to go later. However, the only thing you MUST try is the BUBBLE MILK TEA.</p> <br>
 
     
-    <img class="img" width="315" height="560" src="../Project/Media/boba.jpeg" alt="Boba">
+    <img id="close" class="img" width="315" height="560" src="../Project/Media/boba.jpeg" alt="Boba">
             
-    <p class="fact">FUN FACT :<br>
+    <p id="p2" class="fact">FUN FACT :<br>
     <strong>Did you know?</strong><br>
-    Taiwan invented the first boba in the world!<br>In 1949, Chang Fan Shu opened the first tea shop, and the tea was made with a cocktail shaker. Now, it has become a global addiction that everyone cannot live without.<br>
+    Taiwan invented the first boba in the world!<br>In 1949, Chang Fan Shu opened the first tea shop, and the tea was made with a cocktail shaker. Now, it has become a global addiction that everyone cannot live without.</p><br>
 
  
-
-        
 
     <div class="box2">
         <div>
