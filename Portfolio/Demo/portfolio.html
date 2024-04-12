@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai Tun Hsu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1734dba1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="../images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#services">Services</a></li> -->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav> 
+        <div class="header-text">
+            <p>Project Manager / Data Analyst</p>
+            <h1>Hi, I'm <span>Carlton Hsu</span><br> Sophomore Student<br> At Syracuse University</h1>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<div id="about"> 
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="../images/IMG_6455.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an undergraduate student studying Information Management & Technology at Syracuse University. I am originally from Taiwan but have been pursuing an education in the United States since high school. Some of my work experiences reside as a dance teacher and assistant in Taiwan where I have instructed and led many teams. I am eager to look for many future career opportunities and bring my passions and unique ideas to them.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick=" opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick=" opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Prototyping</span><br>Low and high-fidelity mockups on paper or sketch</li>
+                        <!-- <li><span>Project Managment</span><br>Be project manager</li> -->
+                        <li><span>Data Analytics</span><br>Converts raw data into actionable insights</li>
+                        <li><span>Technical</span><br>Programming Language: HTML/CSS, Python, R</li>
+                        <li><span>Languages</span><br>Proficient Chinese, Fluent in English</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020</span><br>Dance assistance</li>
+                        <li><span>2021</span><br>Dance teacher</li>
+                        <li><span>2022</span><br>Dance performance</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Syracuse University</span><br>August 2022 - Present</li>
+                        <li><span>Major</span><br>Information Management & Technology</li>
+                        <li><span>Concentration</span><br>Project Management / Data Analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Campus Street Safety</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea porro adipisci quasi, quis nobis eos officiis impedit. Molestiae ut sunt voluptatum perspiciatis incidunt excepturi quam, doloribus, quisquam ipsa eos vero!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea porro adipisci quasi, quis nobis eos officiis impedit. Molestiae ut sunt voluptatum perspiciatis incidunt excepturi quam, doloribus, quisquam ipsa eos vero!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea porro adipisci quasi, quis nobis eos officiis impedit. Molestiae ut sunt voluptatum perspiciatis incidunt excepturi quam, doloribus, quisquam ipsa eos vero!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../images/img1.jpg">
+                <div class="layer">
+                    <h3>Campus Street Safety</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptates ea mollitia magnam sequi fugit exercitationem! Ipsam rerum animi eaque minus id error ad, laudantium, quas temporibus neque nam asperiores.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../images/img2.jpg">
+                <div class="layer">
+                    <h3>To be updated</h3>
+                    <p>Nothing here yet!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../images/img3.jpg">
+                <div class="layer">
+                    <h3>To be updated</h3>
+                    <p>Nothing here yet!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> carltonhsu09@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (617)-678-7498</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/carlton.hsu.5/about"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hsucarlton/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="linkedin.com/in/kai-tun-hsu-abc12345"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xjvqaarz" method="post">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>“True innovation requires taking risks and being willing to fail.” — Jensen Huang</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
